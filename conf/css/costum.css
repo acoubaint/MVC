@@ -1,0 +1,81 @@
+@font-face {
+	font-family: "marguerite";
+    src: url('../fonts/marguerite/marguerite.ttf');
+}
+
+header.content, main.content, footer.content {
+	padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+	header.content, main.content, footer.content {
+	  	padding-left: 0;
+	}
+}
+
+.logo-tongsik{
+	font-family: marguerite;
+	color: #ff6f00;
+	max-width: 100%;
+}
+
+.admin-panel{
+	margin: 0 0 0 20px;
+}
+
+.tongsik-logo{
+	width: 60%;
+	margin: 0 auto;
+}
+
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(../fonts/icons/icons.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+.halaman-login{
+  max-width: 40%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+.input-field input[type=text]:focus + label, .input-field input[type=password]:focus + label, .input-field input[type=email]:focus + label, .input-field input[type=search]:focus + label {
+ color: #ff6f00;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus, .input-field input[type=password]:focus, .input-field input[type=email]:focus, .input-field input[type=search]:focus {
+ border-bottom: 1px solid #ff6f00;
+ box-shadow: 0 1px 0 0 #ff6f00;
+}
+/* valid color */
+.input-field input[type=text].valid, .input-field input[type=password].valid, .input-field input[type=email].valid, .input-field input[type=search].valid {
+ border-bottom: 1px solid #ff6f00;
+ box-shadow: 0 1px 0 0 #ff6f00;
+}
+/* invalid color */
+.input-field input[type=text].invalid, .input-field input[type=password].invalid, .input-field input[type=email].invalid, .input-field input[type=search].invalid {
+ border-bottom: 1px solid #ff6f00;
+ box-shadow: 0 1px 0 0 #ff6f00;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+ color: #ff6f00;
+}
+
