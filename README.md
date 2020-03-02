@@ -1,3 +1,3 @@
-# tongsik
-
 Hello World!!
+
+my first mvc.
